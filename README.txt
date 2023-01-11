@@ -1,4 +1,4 @@
-=== PopBot ===
+=== Core Web Vitals Monitor - Track your Page Speed & Load Times for Real Users ===
 Contributors: wrdstudio
 Tags: page speed, page load, load times, core web vitals, largest contentful paint, LCP, cumulative layout shift, CLS, first input delay, FID, time to first byte, TTFB
 Requires at least: 5.7
@@ -8,7 +8,7 @@ License: GPLv3 or later
 Stable tag: 1.0.2
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Track page load times for real users across your site.
+Track page load times & core web vitals for real users who visit your site.
 
 == Description ==
 Core Web Vitals Monitor adds a sidebar to posts & pages and dashboard widget that show you how quickly your pages are loading for real visitors. We report page load times from real users as they experience your site so your data isn't limited to your internet speed.
