@@ -6,7 +6,7 @@ import { onCLS, onFID, onLCP, onFCP, onINP, onTTFB } from 'web-vitals';
 			return; // Only use the first value.
 		}
 
-		fetch(`${CWVM.rest_url}/corewebvitalsmonitor/v1/metric`, {
+		fetch(`${CWVM.rest_url}corewebvitalsmonitor/v1/metric`, {
 			method: 'POST',
 
 			headers: new Headers({
