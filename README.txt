@@ -36,23 +36,23 @@ The Core Web Vitals Monitor is a tiny plugin focused on one thing: accurate page
 
 == FAQS ==
 
-= Does this work with the Gutenberg Block Editor? =
+*Does this work with the Gutenberg Block Editor?*
 
 Yes! The Core Web Vitals Monitor will appear on the right hand side under your post/page's publishing settings.
 
-= Does this work with the Classic Editor? =
+*Does this work with the Classic Editor?*
 
 Yes! The Core Web Vitals Monitor will appear on the right hand side under your post/page's publishing settings.
 
-= Can I see page load times for a specific URL? =
+*Can I see page load times for a specific URL?*
 
 Yes, when you open a page or post in your WordPress admin area those statistics are only for the URL of that post. You can scroll down to the bottom of the monitor to see how many visits and what URL the data is for.
 
-= Where can I see the page load times for the entire site? =
+*Where can I see the page load times for the entire site?*
 
 If you visit your WordPress admin dashboard, you'll see the Core Web Vitals for all URLs collected on your site.
 
-= Will URL query parameters mess this up?
+*Will URL query parameters mess this up?*
 
 No. When we track the URL the user is on we strip back everything except the scheme (http or https), host name (www.example.com) and the path (/about-me). If the user is on a page with query parameters or a hash then this will be removed. The only thing that may lead to inconsistent results is if your scheme is inconsistent, for example if users are able to visit the site through HTTP and HTTPS.
 
